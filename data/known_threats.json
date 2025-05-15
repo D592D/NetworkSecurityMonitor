@@ -1,0 +1,34 @@
+{
+    "patterns": [
+        {
+            "name": "Brute Force Attack",
+            "pattern": "failed login attempt",
+            "threshold": 5,
+            "timeframe": 300
+        },
+        {
+            "name": "Suspicious IP Access",
+            "pattern": "unauthorized access",
+            "threshold": 1,
+            "timeframe": 60
+        },
+        {
+            "name": "Data Exfiltration",
+            "pattern": "large data transfer",
+            "threshold": 3,
+            "timeframe": 600
+        },
+        {
+            "name": "Port Scanning",
+            "pattern": "multiple port connection",
+            "threshold": 10,
+            "timeframe": 120
+        },
+        {
+            "name": "Malware Communication",
+            "pattern": "connection to known malicious ip",
+            "threshold": 1,
+            "timeframe": 3600
+        }
+    ]
+}
