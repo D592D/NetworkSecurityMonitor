@@ -98,7 +98,7 @@ This project utilizes the OpenAI API for certain threat analysis functionalities
 
 1.  Ensure the main monitoring application is running.
 2.  In the sidebar, click the "🔍 Vulnerability Run Scan" button.
-3.  The vulnerability scanner application will attempt to launch in a new browser tab (usually at `http://192.168.0.18:5001`, though the IP might vary based on your local setup).
+3.  The vulnerability scanner application will attempt to launch in a new browser tab (usually at `http://localhost:5001`, though the IP might vary based on your local setup).
 
 ### Using a `.env` file for local development (Optional)
 
